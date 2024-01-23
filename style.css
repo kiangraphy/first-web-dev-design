@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* Additional global styles can be added here */
+  }
+
+body {
+    background-color: #ffd60a; /* Replace with your desired color code or name */
+  }
+
+  .whole_card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+  }
+
+  .container_card{
+    padding: 20px;
+    width: 340px;
+    border: 1px solid #000000;
+    border-radius: 15px;
+    overflow: hidden;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    box-shadow: 10px 10px black;
+  }
+
+  .image_borderRadius{
+    border-radius: 15px;
+    width: 300px;
+  }
+
+  .section-highlight{
+    padding-top: 15px;
+  }
+
+  h4{
+    padding-top: 12px;
+    font-family: 'Figtree', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    
+  }
+
+  h2{
+    padding-top: 17px;
+    font-family: 'Figtree', sans-serif;
+    font-size: 22px;
+  }
+
+  h3{
+    padding-top: 25px;
+    font-family: 'Figtree', sans-serif;
+    font-weight: 600;
+    color: grey;
+    font-size: 15px;
+  }
+
+  .section-learning{
+    background-color: #ffd60a;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    border-radius: 7px;
+    width: 25%;
+  }
+  .section-learning, h5{
+    padding-left: 10px;
+    font-family: 'Figtree', sans-serif;
+
+  }
+
+  .author_footer{
+    padding-top: 7%;
+    display: flex;
+    align-items: center;
+  }
+
+  .avatar-author{
+    width: 35px;
+    border-radius: 20px;
+  }
+
+  @media only screen and (max-width: 375px) {
+    body {
+      background-color:  #ffd60a;
+    }
+
+    .whole_card{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      width: 360px;
+    }
+
+    .image_borderRadius{
+      border-radius: 15px;
+      width: 280px;
+    }
+  }
